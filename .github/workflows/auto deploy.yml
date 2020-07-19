@@ -32,5 +32,5 @@ jobs:
     - name: Installing surge
       run: npm install --globle surge
     - name: deploy using surge
-      run: ./ frightening-donkey.surge.sh --token ${{secret.SURGE_TOKENS}}
+      run: ./ frightening-donkey.surge.sh --token ${{ secret.SURGE_TOKENS }}
 
